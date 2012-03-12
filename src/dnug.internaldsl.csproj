@@ -65,12 +65,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSVImport\CustomerImportConfiguration.cs" />
+    <Compile Include="CSVImport\ImportFromCsvService.cs" />
+    <Compile Include="CSVImport\ImportOptions.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="FullTextSearch\CreditCardEncriptedFieldBridge.cs" />
     <Compile Include="FullTextSearch\CustomerDocumentConfiguration.cs" />
+    <Compile Include="FullTextSearch\LuceneReindexer.cs" />
+    <Compile Include="FullTextSearch\SearchService.cs" />
     <Compile Include="Persistence\CustomerMapping.cs" />
+    <Compile Include="Persistence\CustomerRepository.cs" />
+    <Compile Include="Persistence\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\CustomerValidationDefinitions.cs" />
+    <Compile Include="Validation\ValidationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
